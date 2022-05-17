@@ -1,14 +1,14 @@
 ## Docker commands used to build the application 
-docker build -t alpidar/techtrends .
+docker build -t alpidar/techtrend .
 
 ## Docker commands used to run the application
-docker run -d --name techtrends -p 7111:3111 alpidar/techtrends
+docker run -d --name techtrend -p 7111:3111 alpidar/techtrend
 
 ## Docker commands used to get the application logs
-docker logs techtrends
+docker logs techtrend
 
 ## Logs from the container running the TechTrends application
-$ docker logs techtrends
+$ docker logs techtrend
  * Serving Flask app "app" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
